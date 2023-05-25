@@ -1,15 +1,15 @@
 {
-    "name": "rivsen/hello-world",
-    "description": "this is a hello world repo for composer.",
+    "name": "paranoid/doublehash",
+    "description": "Double hash library in PHP maked by paranoid",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Rivsen Tan",
-            "email": "rivsen1003@gmail.com"
+            "name": "SiestaCat"
         }
     ],
     "autoload": {
-        "psr-4": { "Rivsen\\Demo\\": "src" }
+        "psr-4": {"Paranoid\\DoubleHash\\": "src/"}
     },
     "require": {}
 }
