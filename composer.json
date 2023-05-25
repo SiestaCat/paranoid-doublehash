@@ -1,6 +1,6 @@
 {
     "name": "paranoid/doublehash",
-    "description": "Double hash library in PHP maked by paranoid",
+    "description": "Double hash library in PHP made by paranoid",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,5 +11,11 @@
     "autoload": {
         "psr-4": {"Paranoid\\DoubleHash\\": "src/"}
     },
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
 }
