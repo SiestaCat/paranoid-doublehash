@@ -10,6 +10,9 @@ composer require paranoid/doublehash
 ## Test ##
 
 ```bash
+git clone git@github.com:SiestaCat/paranoid-doublehash.git
+cd paranoid-doublehash
+composer install
 composer run-script test
 ```
 
